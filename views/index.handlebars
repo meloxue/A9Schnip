@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html>
+<head>
+	<title> Schnip Login Screen </title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/a5screen2.css" rel="stylesheet">
+	<script src="js/a5.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	{{> facebook}}
+	<script src="/js/facebook.js"></script>
+
+</head>
+
+<body>
+	<div class="appbox" align="center" style="background-color:#6FC8CF">
+		
+		<!-- logo -->
+		<div class="row3" style="height:170px;"></div>
+		<div>
+		<img style="height:auto; vertical-align: middle; margin-right: auto;
+    margin-left: auto" width="250" src="images/schnip.png">
+	    </div>
+
+		
+		   <form>
+				<div class="form-group">
+					<input type="inputloyaltycard" class="form-control2" placeholder="User Name *" value=""/>
+				</div>
+				<br>
+				<div class="form-group">
+					<input type="inputloyaltycard" class="form-control2" placeholder="Password *" value=""/>
+				</div>
+				<br>
+				<div>
+					<a href="main" class="button">Log In</a>
+				</div>
+			</form>
+		
+			<!-- END -->
+			
+			<div class="container login-container">
+				<div class="row">
+					<div class="col-md-6 login-form-1">
+
+
+						<div>
+							<p class="facebookLogin">
+							</br>
+							<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+						</fb:login-button>
+					        </p>
+					<p hidden class="facebookLoginSuccess">
+						Login Successful
+						
+					</br>
+					<button type="button" class="buttonSway" style="vertical-align:middle" onclick="javascript:window.location.href='main'">Enter</button>
+				    </p>
+			            </div>
+
+
+
+		            </div>
+	             </div>
+
+        
+            </div>
+    <!-- Bottom -->
+
+
+</div>
+</body>
+
+</html>

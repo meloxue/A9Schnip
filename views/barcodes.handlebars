@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Schnip Main Screen Wireframe</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/a5.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="css/a5screen2.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="appbox" style="width: auto;">
+
+		<div style="border:none; padding:none; margin:none;">
+			<div>
+				<img src="images/loyalty_card.jpg">
+			</div>
+			<br>
+			{{#each coupons}}
+			<div class="coupons" id="{{product}}">
+
+				<h3 style="text-align: center">{{product}}</h3>
+				<img class="img-responsive img-rounded" style="width: auto; margin-right: auto;
+    margin-left: auto" src="{{imageURL}}">
+
+			</div>
+			<hr>
+			{{/each}}
+
+		</div>
+	</div>
+</body>
+</html>

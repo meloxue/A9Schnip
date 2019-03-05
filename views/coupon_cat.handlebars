@@ -1,0 +1,137 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Coupons page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="/css/introHCI.css" rel="stylesheet">
+	<!-- this is a comment in HTML -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+
+	<script src="js/a5.js"></script>
+	<script src="js/coupon.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<div style="border:none; padding:none; margin:none;">
+		
+		<div style="background-color: #61B2B5; font-family:Proxima Nova; color: #ffffff; padding-left: 10px; padding-top: 1px; padding-bottom: 1px" >
+			<h4>Chicken<h4>
+		</div>
+		<br>
+		{{#each coupons}}
+			{{#if chicken}}
+  
+				<div class="coupons" id="{{product}}">
+					<img class="img-responsive img-rounded" id="{{productID}}" onclick="{{call}}" src="{{imageURL}}">
+					<h3>{{product}}</h3>
+					<p>Price: {{Deal}}</p>
+					<p>Saved: ${{Saved}}.00</p>
+
+				</div>
+				<hr>
+			{{/if}}
+		{{/each}}
+		<div style="background-color: #61B2B5; font-family:Proxima Nova; color: #ffffff; padding-left: 10px; padding-top: 1px; padding-bottom: 1px" >
+			<h4>Beef<h4>
+		</div>
+		<br>
+		{{#each coupons}}
+			{{#if beef}}
+  
+				<div class="coupons" id="{{product}}">
+					<img class="img-responsive img-rounded" id="{{productID}}" onclick="{{call}}" src="{{imageURL}}">
+					<h3>{{product}}</h3>
+					<p>Price: {{Deal}}</p>
+					<p>Saved: ${{Saved}}.00</p>
+
+				</div>
+				<hr>
+			{{/if}}
+		{{/each}}
+		<div style="background-color: #61B2B5; font-family:Proxima Nova; color: #ffffff; padding-left: 10px; padding-top: 1px; padding-bottom: 1px" >
+			<h4>Fish<h4>
+		</div>
+		<br>
+		{{#each coupons}}
+			{{#if fish}}
+  
+				<div class="coupons" id="{{product}}">
+					<img class="img-responsive img-rounded" id="{{productID}}" onclick="{{call}}" src="{{imageURL}}">
+					<h3>{{product}}</h3>
+					<p>Price: {{Deal}}</p>
+					<p>Saved: ${{Saved}}.00</p>
+
+				</div>
+				<hr>
+			{{/if}}
+		{{/each}}
+		<div style="background-color: #61B2B5; font-family:Proxima Nova; color: #ffffff; padding-left: 10px; padding-top: 1px; padding-bottom: 1px" >
+			<h4>Beverages<h4>
+		</div>
+		<br>
+		{{#each coupons}}
+			{{#if beverage}}
+  
+				<div class="coupons" id="{{product}}">
+					<img class="img-responsive img-rounded" id="{{productID}}" onclick="{{call}}" src="{{imageURL}}">
+					<h3>{{product}}</h3>
+					<p>Price: {{Deal}}</p>
+					<p>Saved: ${{Saved}}.00</p>
+
+				</div>
+				<hr>
+			{{/if}}
+		{{/each}}
+		<div style="background-color: #61B2B5; font-family:Proxima Nova; color: #ffffff; padding-left: 10px; padding-top: 1px; padding-bottom: 1px" >
+			<h4>Snacks<h4>
+		</div>
+		<br>
+		{{#each coupons}}
+			{{#if snack}}
+  
+				<div class="coupons" id="{{product}}">
+					<img class="img-responsive img-rounded" id="{{productID}}" onclick="{{call}}" src="{{imageURL}}">
+					<h3>{{product}}</h3>
+					<p>Price: {{Deal}}</p>
+					<p>Saved: ${{Saved}}.00</p>
+
+				</div>
+				<hr>
+			{{/if}}
+		{{/each}}
+		<div style="background-color: #61B2B5; font-family:Proxima Nova; color: #ffffff; padding-left: 10px; padding-top: 1px; padding-bottom: 1px" >
+			<h4>Other<h4>
+		</div>
+		<br>
+		{{#each coupons}}
+			{{#if other}}
+  
+				<div class="coupons" id="{{product}}">
+					<img class="img-responsive img-rounded" id="{{productID}}" onclick="{{call}}" src="{{imageURL}}">
+					<h3>{{product}}</h3>
+					<p>Price: {{Deal}}</p>
+					<p>Saved: ${{Saved}}.00</p>
+
+				</div>
+				<hr>
+			{{/if}}
+		{{/each}}
+
+	</div>
+</body>
+</html>

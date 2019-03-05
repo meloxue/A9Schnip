@@ -1,0 +1,13 @@
+{
+	"users": [
+		{
+			"email": "janedoe@gmail.com",
+			"password": "pass123",
+			"zipcode": 92020,
+			"totalsaved": 0,
+			"numcoupons": 0,
+			"savedcoupons": [],
+			"checkoutcoupons": []
+		}
+	]
+}

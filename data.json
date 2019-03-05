@@ -1,0 +1,186 @@
+{
+	"coupons": [
+		{
+			"productID": "chicken_thighs",
+			"chicken": "true",
+			"product": "Goldn Plump Chicken Thighs",
+			"Deal": "$2.49/lb",
+			"Saved": "1",
+			"imageURL": "./images/chicken_thighs_un.jpg",
+			"barcode": "./images/cornishhens_bar.png",
+			"call": "thighsChange();"
+		},
+		{
+			"productID": "chicken_nuggets",
+			"chicken": "true",
+			"product": "Perdue Chicken Nuggets",
+			"Deal": "$2.49/lb",
+			"Saved": "1",
+			"imageURL": "./images/chicken_nuggets_un.jpg",
+			"barcode": "./images/cornishhens_bar.png",
+			"call": "nuggetsChange();"
+		},
+		{
+			"productID": "chicken_delights",
+			"chicken": "true",
+			"product": "Jimmy Dean Chicken Delights",
+			"Deal": "$2.49/lb",
+			"Saved": "1",
+			"imageURL": "./images/chicken_delights_un.jpg",
+			"barcode": "./images/cornishhens_bar.png",
+			"call": "delightsChange();"
+		},
+		{
+			"productID": "fish_fillet",
+			"fish": "true",
+			"product": "Fresh Salmon Fillets",
+			"Deal": "$6.99/lb",
+			"Saved": "1",
+			"imageURL": "./images/fish_fillet_un.jpg",
+			"barcode": "./images/fillet_bar.png",
+			"call": "filletChange();"
+		},
+		{
+			"productID": "fish_dried",
+			"fish": "true",
+			"product": "Dahfa Dried Fish Fillet",
+			"Deal": "$8.99/lb",
+			"Saved": "2",
+			"imageURL": "./images/fish_dried_un.jpg",
+			"barcode": "./images/flatiron_bar.png",
+			"call": "driedChange();"
+		},
+		{
+			"productID": "fish_sticks",
+			"fish": "true",
+			"product": "Gordons Fish Sticks",
+			"Deal": "$7.99/lb",
+			"Saved": "1",
+			"imageURL": "./images/fish_sticks_un.jpg",
+			"barcode": "./images/grassbeef_bar.png",
+			"call": "sticksChange();"	
+		},
+		{
+
+			"productID": "beef_corned",
+			"beef": "true",
+			"product": "Buddig Sliced Corned Beef",
+			"Deal": "$7.99/lb",
+			"Saved": "1",
+			"imageURL": "./images/beef_corned_un.jpg",
+			"barcode": "./images/alaka_bar.png",
+			"call": "cornedChange();"
+		},
+		{
+
+			"productID": "beef_lean",
+			"beef": "true",
+			"product": "Ocado Lean Ground Beef",
+			"Deal": "$5.99/each",
+			"Saved": "1",
+			"imageURL": "./images/beef_lean_un.jpg",
+			"barcode": "./images/baconwrapped_bar.png",
+			"call": "leanChange();"
+		},
+		{
+			"productID": "beef_shoulder",
+			"beef": "true",
+			"product": "Western Beef Shoulder",
+			"Deal": "$5.99/each",
+			"Saved": "2",
+			"imageURL": "./images/beef_shoulder_un.jpg",
+			"barcode": "./images/breadedchicken_bar.png",
+			"call": "shoulderChange();"	
+		},
+		{
+			"productID": "beverage_coke",
+			"beverage": "true",
+			"product": "Coka Cola Classic Products",
+			"Deal": "$7.99/each",
+			"Saved": "1",
+			"imageURL": "./images/beverage_coke_un.jpg",
+			"barcode": "./images/buddinglunch_bar.png",
+			"call": "cokeChange();"
+		},
+		{
+			"productID": "beverage_tea",
+			"beverage": "true",
+			"product": "Lipton Instant Peach Iced Tea",
+			"Deal": "$7.99/lb",
+			"Saved": "2",
+			"imageURL": "./images/beverage_tea_un.jpg",
+			"barcode": "./images/chickenbreast_bar.png",
+			"call": "teaChange();"
+		},
+		{
+			"productID": "beverage_redbull",
+			"beverage": "true",
+			"product": "Redbull Sugerless Energy Drink",
+			"Deal": "$5.99/each",
+			"Saved": "1",
+			"imageURL": "./images/beverage_redbull_un.jpg",
+			"barcode": "./images/cookedentrees_bar.png",
+			"call": "redbullChange();"	
+		},
+		{
+			"productID": "snacks_cheetos",
+			"snack": "true",
+			"product": "Flamin Hot Cheetos",
+			"Deal": "$7.99/lb",
+			"Saved": "2",
+			"imageURL": "./images/snack_cheetos_un.jpg",
+			"barcode": "./images/chickenbreast_bar.png",
+			"call": "cheetosChange();"
+		},
+		{
+			"productID": "snacks_candy",
+			"snack": "true",
+			"product": "Trolli Sour Brite Crawlers Candy",
+			"Deal": "$7.99/lb",
+			"Saved": "2",
+			"imageURL": "./images/snack_candy_un.jpg",
+			"barcode": "./images/chickenbreast_bar.png",
+			"call": "candyChange();"
+		},
+		{
+			"productID": "snacks_rice_cake",
+			"snack": "true",
+			"product": "Riskakor Rice Cake Products",
+			"Deal": "$7.99/lb",
+			"Saved": "2",
+			"imageURL": "./images/snack_rice_cake_un.jpg",
+			"barcode": "./images/chickenbreast_bar.png",
+			"call": "riceCakeChange();"
+		},
+		{
+			"productID": "other_rice",
+			"other": "true",
+			"product": "Cucoco Rice Products",
+			"Deal": "$7.99/lb",
+			"Saved": "2",
+			"imageURL": "./images/other_rice_un.jpg",
+			"barcode": "./images/chickenbreast_bar.png",
+			"call": "riceChange();"
+		},
+		{
+			"productID": "other_soap",
+			"other": "true",
+			"product": "Lux Velvet Touch Soap",
+			"Deal": "$7.99/lb",
+			"Saved": "2",
+			"imageURL": "./images/other_soap_un.jpg",
+			"barcode": "./images/chickenbreast_bar.png",
+			"call": "soapChange();"
+		},
+		{
+			"productID": "other_tylenol",
+			"other": "true",
+			"product": "Extra Strength Tylenol",
+			"Deal": "$7.99/lb",
+			"Saved": "2",
+			"imageURL": "./images/other_tylenol_un.jpg",
+			"barcode": "./images/chickenbreast_bar.png",
+			"call": "tylenolChange();"
+		}
+    ]
+}
