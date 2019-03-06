@@ -12,6 +12,7 @@ $(document).ready(function() {
 function initializePage() {
 	console.log("Page ready");
 	initNUMForm2();
+  $('#connect1').click(clickVersionA);
 
  	//initLogin();
 }
@@ -43,4 +44,10 @@ function initNUMForm2() {
 
 }
 
+
+function clickVersionA(e) {
+  e.preventDefault();
+  ga('create', 'UA-135670464-1', 'auto');
+  ga('send', 'event', 'connectRewards', 'click');
+}
 

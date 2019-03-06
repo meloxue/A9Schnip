@@ -14,6 +14,7 @@ function initializePage() {
 
  	initNUMForm();
  	//initLogin();
+ 	$('#versionb').click(clickVersionB);
 }
 
 
@@ -37,6 +38,12 @@ function initNUMForm() {
 
  
 
+}
+
+function clickVersionB(e) {
+	e.preventDefault();
+	ga('create', 'UA-135670464-1', 'auto');
+	ga('send', 'event', 'connectRewards', 'click');
 }
 
 // Call this function when the page loads (the "ready" event)
