@@ -44,6 +44,7 @@ function clickVersionB(e) {
 	e.preventDefault();
 	ga('create', 'UA-135670464-1', 'auto');
 	ga('send', 'event', 'connectRewards', 'click');
+	console.log("test A")
 }
 
 // Call this function when the page loads (the "ready" event)

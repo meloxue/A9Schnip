@@ -49,5 +49,6 @@ function clickVersionA(e) {
   e.preventDefault();
   ga('create', 'UA-135670464-1', 'auto');
   ga('send', 'event', 'connectRewards', 'click');
+  console.log("test B")
 }
 
