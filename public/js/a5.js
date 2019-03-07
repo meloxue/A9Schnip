@@ -22,10 +22,10 @@ function initializePage() {
 function initNUMForm() {
   // add your code here
   $('#numForm').submit(function(e) {
-  	e.preventDefault();
+  	
   	console.log("submitting form..")
   	var numForm = $('#numForm').val();
-    alert("Phone number successfully connected to all associated reward cards!");
+    //alert("Phone number successfully connected to all associated reward cards!");
 
 	$(".button1").text("Connected to the highlighted stores below!");
 
