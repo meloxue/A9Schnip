@@ -12,6 +12,7 @@ $(document).ready(function() {
 function initializePage() {
 	console.log("Page ready");
 	initNUMForm2();
+  console.log("submit");
   $('#connect1').click(clickVersionA);
 
  	//initLogin();
@@ -46,7 +47,7 @@ function initNUMForm2() {
 
 
 function clickVersionA(e) {
-  e.preventDefault();
+ // e.preventDefault();
   ga('create', 'UA-135670464-1', 'auto');
   ga('send', 'event', 'connectRewards', 'click');
   console.log("test B")

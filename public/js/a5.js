@@ -13,6 +13,8 @@ function initializePage() {
 	console.log("Page ready");
 
  	initNUMForm();
+ 	console.log("submit");
+
  	//initLogin();
  	$('#versionb').click(clickVersionB);
 }
@@ -41,7 +43,7 @@ function initNUMForm() {
 }
 
 function clickVersionB(e) {
-	e.preventDefault();
+	
 	ga('create', 'UA-135670464-1', 'auto');
 	ga('send', 'event', 'connectRewards', 'click');
 	console.log("test A")
