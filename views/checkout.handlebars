@@ -10,6 +10,7 @@
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/a5.js"></script>
+	<script src="js/coupon.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link href="css/a5screen2.css" rel="stylesheet">
@@ -61,17 +62,18 @@
 			<div class="row3" style="height:4px;"></div>
 
 		<!-- CHECKOUT -->
-		<div class="container">
+		<div class="container" align="center">
 		<iframe name="barcode_frame" src="barcodes" style="border:none; padding:none;" height="490" width="345"></iframe>
 	    </div>
 		
     
 		<!-- bottom nav bar -->
-			<div class="row2" style="background-color:#6FC8CF" >
+			<div class="row2" align="center" style="background-color:#6FC8CF" >
                  
-					<a href="main">
+					<!-- <a href="rsvp">
 					 <img style="height: 45px; width: 350px" src="images/cashier_done.jpg">
-					</a>
+					</a> -->
+					<button onclick="location.href = 'main';" class="buttoncheck" id="clearbars" align="center">Press when cashier is done scanning</button>
 			
 			</div>
 

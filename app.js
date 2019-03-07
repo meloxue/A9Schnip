@@ -78,6 +78,8 @@ app.get('/other', coupons.other);
 app.get('/chicken', coupons.chicken);
 app.get('/checkout', coupons.couponsbar);
 app.get('/barcodes', coupons.couponscodes);
+app.post('/couponsRen', coupons.couponsRen);
+app.post('/clearBarss', coupons.clearBarss);
 //Add setting routes
 //app.get('/preferences', setting.prefdisplay);
 app.get('/addcard', setting.addloyalty);

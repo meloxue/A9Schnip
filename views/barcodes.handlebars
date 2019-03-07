@@ -7,23 +7,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/a5.js"></script>
+	
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<link href="css/a5screen2.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/a5.js"></script>
+	<script src="js/coupon.js"></script>
 
 </head>
 
 <body>
-	<div class="appbox" style="width: auto;">
+	<div class="container" align="center">
 
-		<div style="border:none; padding:none; margin:none;">
+	<!-- 	<div style="border:none; padding:none; margin:none;">
 			<div>
 				<img src="images/loyalty_card.jpg">
 			</div>
@@ -39,7 +41,19 @@
 			<hr>
 			{{/each}}
 
+		</div> -->
+		<div class="row">
+			{{#if barcode}}
+			<ul class="taskList">
+				{{#each barcode}}
+				<li><img src={{this}}></li>
+				{{/each}}
+			</ul>
+			{{else}}
+			<h3>No coupons selected</h3>
+			{{/if}}
 		</div>
+
 	</div>
 </body>
 </html>

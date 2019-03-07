@@ -32,7 +32,6 @@ p.arial{
 
 .row2 {
     display: -ms-flexbox;
-    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding:5px;
@@ -132,6 +131,24 @@ p.arial{
   height: auto;
   width: 50px;
 }
+
+.buttoncheck {
+  background-color: #ffffff;
+  border: 1px solid #6FC8CF;
+  color: #6FC8CF;
+  padding: 3px 10px;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  height: auto;
+  width: auto;
+  align
+}
+
 .previous {
   background-color: #f1f1f1;
   color: black;

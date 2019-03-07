@@ -1,4 +1,16 @@
-'use strict';
+$(document).ready(function() {
+  initializePage();
+})
+
+function initializePage() {
+  // your code here
+  console.log("init page");
+  // initLogin();
+  clearBar();
+ }
+
+
+
 
 var thighs_track = 'un';
 var nuggets_track = 'un';
@@ -25,20 +37,28 @@ function thighsChange(){
 	
 	if(thighs_track=='un'){
 		image.src='images/chicken_thighs_pr.jpg';
-		thighs_track='pr';	
+		thighs_track=='pr';	
+		var codebar= "./images/goldn.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");
 
 	}else{
 		image.src='images/chicken_thighs_un.jpg';
 		thighs_track='un';
 	}
- }
+
+    }
+
 
  function nuggetsChange(){
 	var image = document.getElementById('chicken_nuggets');
 	
 	if(nuggets_track=='un'){
 		image.src='images/chicken_nuggets_pr.jpg';
-		nuggets_track='pr';	
+		nuggets_track=='pr';
+		var codebar= "./images/perdue.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");	
 
 	}else{
 		image.src='images/chicken_nuggets_un.jpg';
@@ -51,7 +71,10 @@ function thighsChange(){
 	
 	if(delights_track=='un'){
 		image.src='images/chicken_delights_pr.jpg';
-		delights_track='pr';	
+		delights_track=='pr';
+		var codebar= "./images/jimmy.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");	
 
 	}else{
 		image.src='images/chicken_delights_un.jpg';
@@ -64,7 +87,10 @@ function thighsChange(){
 	
 	if(fillet_track=='un'){
 		image.src='images/fish_fillet_pr.jpg';
-		fillet_track='pr';	
+		fillet_track=='pr';	
+		var codebar= "./images/salmon.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");
 
 	}else{
 		image.src='images/fish_fillet_un.jpg';
@@ -77,7 +103,10 @@ function thighsChange(){
 	
 	if(dried_track=='un'){
 		image.src='images/fish_dried_pr.jpg';
-		dried_track='pr';	
+		dried_track=='pr';
+		var codebar= "./images/dahfa.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");	
 
 	}else{
 		image.src='images/fish_dried_un.jpg';
@@ -89,7 +118,10 @@ function thighsChange(){
 	
 	if(sticks_track=='un'){
 		image.src='images/fish_sticks_pr.jpg';
-		sticks_track='pr';	
+		sticks_track=='pr';	
+		var codebar= "./images/gordons.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");
 
 	}else{
 		image.src='images/fish_sticks_un.jpg';
@@ -102,7 +134,10 @@ function thighsChange(){
 	
 	if(corned_track=='un'){
 		image.src='images/beef_corned_pr.jpg';
-		corned_track='pr';	
+		corned_track=='pr';	
+		var codebar= "./images/buddig.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");
 
 	}else{
 		image.src='images/beef_corned_un.jpg';
@@ -115,7 +150,10 @@ function thighsChange(){
 	
 	if(lean_track=='un'){
 		image.src='images/beef_lean_pr.jpg';
-		lean_track='pr';	
+		lean_track=='pr';
+		var codebar= "./images/ocado.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");	
 
 	}else{
 		image.src='images/beef_lean_un.jpg';
@@ -128,7 +166,10 @@ function thighsChange(){
 	
 	if(shoulder_track=='un'){
 		image.src='images/beef_shoulder_pr.jpg';
-		shoulder_track='pr';	
+		shoulder_track=='pr';
+		var codebar= "./images/western.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");	
 
 	}else{
 		image.src='images/beef_shoulder_un.jpg';
@@ -141,7 +182,10 @@ function thighsChange(){
 	
 	if(coke_track=='un'){
 		image.src='images/beverage_coke_pr.jpg';
-		coke_track='pr';	
+		coke_track=='pr';
+		var codebar= "./images/coka.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");	
 
 	}else{
 		image.src='images/beverage_coke_un.jpg';
@@ -154,7 +198,10 @@ function thighsChange(){
 	
 	if(tea_track=='un'){
 		image.src='images/beverage_tea_pr.jpg';
-		tea_track='pr';	
+		tea_track=='pr';
+		var codebar= "./images/lipton.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");	
 
 	}else{
 		image.src='images/beverage_tea_un.jpg';
@@ -167,7 +214,10 @@ function thighsChange(){
 	
 	if(redbull_track=='un'){
 		image.src='images/beverage_redbull_pr.jpg';
-		redbull_track='pr';	
+		redbull_track=='pr';
+		var codebar= "./images/redbull.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");	
 
 	}else{
 		image.src='images/beverage_redbull_un.jpg';
@@ -180,7 +230,10 @@ function thighsChange(){
 	
 	if(cheetos_track=='un'){
 		image.src='images/snack_cheetos_pr.jpg';
-		cheetos_track='pr';	
+		cheetos_track=='pr';	
+		var codebar= "./images/Flamin.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");
 
 	}else{
 		image.src='images/snack_cheetos_un.jpg';
@@ -193,7 +246,10 @@ function thighsChange(){
 	
 	if(candy_track=='un'){
 		image.src='images/snack_candy_pr.jpg';
-		candy_track='pr';	
+		candy_track=='pr';
+		var codebar= "./images/Trolli.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");	
 
 	}else{
 		image.src='images/snack_candy_un.jpg';
@@ -206,7 +262,10 @@ function thighsChange(){
 	
 	if(rice_cake_track=='un'){
 		image.src='images/snack_rice_cake_pr.jpg';
-		rice_cake_track='pr';	
+		rice_cake_track=='pr';	
+		var codebar= "./images/riskakor.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");
 
 	}else{
 		image.src='images/snack_rice_cake_un.jpg';
@@ -219,7 +278,10 @@ function thighsChange(){
 	
 	if(rice_track=='un'){
 		image.src='images/other_rice_pr.jpg';
-		rice_track='pr';	
+		rice_track=='pr';	
+		var codebar= "./images/cucoco.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");
 
 	}else{
 		image.src='images/other_rice_un.jpg';
@@ -232,7 +294,10 @@ function soapChange(){
 	
 	if(soap_track=='un'){
 		image.src='images/other_soap_pr.jpg';
-		soap_track='pr';	
+		soap_track=='pr';	
+		var codebar= "./images/lux.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");
 
 	}else{
 		image.src='images/other_soap_un.jpg';
@@ -245,13 +310,35 @@ function soapChange(){
 	
 	if(tylenol_track=='un'){
 		image.src='images/other_tylenol_pr.jpg';
-		tylenol_track='pr';	
+		tylenol_track=='pr';
+		var codebar= "./images/tylenol.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");	
 
 	}else{
 		image.src='images/other_tylenol_un.jpg';
 		tylenol_track='un';
 	}
  }
+
+ function clearBar() {
+    // add your code here
+    console.log("clear barcode");
+    $('#clearbars').click(function(e) {
+      //e.preventDefault();//basically prevent refreshing, once disable linked to new page
+      console.log("clearing barcodes..")
+      $.post('clearBarss');
+
+
+    });
+  }
+
+
+
+
+ //add card 
+
+
 /*
 
 var alaska_track = 'un';
