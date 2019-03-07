@@ -6,6 +6,13 @@ padding: 0;
 border: 0;
 }
 
+.wrapper {
+  margin: auto;
+  width: 375px;
+  height: 100%;
+  background-color: white;
+}
+
 p.arial{
   margin: 5%;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,9 +22,8 @@ p.arial{
 /* Target application height for mobile devices*/
 .appbox {
   alignment-baseline: center;
-  margin: 5px;
-  height: 657px; 
-  width: 365px;
+  height: 667px; 
+  width: 375px;
 }
 
 .row1 {
@@ -279,9 +285,7 @@ NOTE EXTRA 'n'
 }
 
 .dropdownn {
-  /*position: absolute;
-  top: 81px;*/
-  left: 300px;
+  position: relative;
   display: inline-block;
   height: auto;
 }
