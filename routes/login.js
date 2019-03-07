@@ -1,5 +1,5 @@
 var data = {
-  rsvp: ['ixd@ucsd.edu']
+  rsvp: []
 };
 
 //var data1 = require('../users.json');
@@ -9,7 +9,7 @@ var data = {
  */
 exports.adminView = function(request, response){
  // response.render('rsvp', data);
-  response.render('rsvp', data);
+  response.render('main', data);
 };
 
 exports.addRSVP = function(request, response) {
@@ -19,10 +19,19 @@ exports.addRSVP = function(request, response) {
 	data.rsvp.push(rsvpEmail);
 	console.log(rsvpEmail);
 	//response.render('rsvp' , data);
-	response.render('rsvp' , data);
+	response.render('main' , data);
 
 
 
+};
+
+exports.clearRSVP = function(request, response) {
+	data = {
+   rsvp: []
+   };
+
+ response.render('main', data);
+ console.log("clear");
 };
 
 

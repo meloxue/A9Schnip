@@ -79,12 +79,14 @@ app.get('/chicken', coupons.chicken);
 app.get('/checkout', coupons.couponsbar);
 app.get('/barcodes', coupons.couponscodes);
 //Add setting routes
-app.get('/preferences', setting.prefdisplay);
+//app.get('/preferences', setting.prefdisplay);
 app.get('/addcard', setting.addloyalty);
 app.get('/addcard-b', setting.loyalinfo);
 app.get('/signout', setting.returntosignin);
+//logout sign in
 app.get('/rsvp', login.adminView);
 app.post('/addRSVP', login.addRSVP);
+app.post('/clearRSVP', login.clearRSVP);
 // Example route
 // app.get('/users', user.list);
 

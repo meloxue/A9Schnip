@@ -173,6 +173,13 @@ p.arial{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+ul {
+  list-style-type: none;
+}
+
+
+/*styling from before*/
+
 /* grey background box for login screen spacing*/
 .login{
   background-color: #D3D3D3;
