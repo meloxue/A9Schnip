@@ -152,16 +152,16 @@
 			"barcode": "./images/chickenbreast_bar.png",
 			"call": "riceCakeChange();"
 		},
-		// {
-		// 	"productID": "other_rice",
-		// 	"other": "true",
-		// 	"product": "Cucoco Rice Products",
-		// 	"Deal": "$7.99/lb",
-		// 	"Saved": "2",
-		// 	"imageURL": "./images/other_rice_un.jpg",
-		// 	"barcode": "./images/chickenbreast_bar.png",
-		// 	"call": "riceChange();"
-		// },
+		{
+			"productID": "other_rice",
+			"other": "true",
+			"product": "Cucoco Rice Products",
+			"Deal": "$7.99/lb",
+			"Saved": "2",
+			"imageURL": "./images/other_rice_un.jpg",
+			"barcode": "./images/chickenbreast_bar.png",
+			"call": "riceChange();"
+		},
 		{
 			"productID": "other_soap",
 			"other": "true",

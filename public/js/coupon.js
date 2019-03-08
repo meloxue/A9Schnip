@@ -273,21 +273,21 @@ function thighsChange(){
 	}
  }
 
- // function riceChange(){
-	// var image = document.getElementById('other_rice');
+ function riceChange(){
+	var image = document.getElementById('other_rice');
 	
-	// if(rice_track=='un'){
-	// 	image.src='images/other_rice_pr.jpg';
-	// 	rice_track='pr';	
-	// 	var codebar= "./images/cucoco.png";
-	// 	$.post('couponsRen', { codebar: codebar });
-	// 	console.log("posted");
+	if(rice_track=='un'){
+		image.src='images/other_rice_pr.jpg';
+		rice_track='pr';	
+		var codebar= "./images/cucoco.png";
+		$.post('couponsRen', { codebar: codebar });
+		console.log("posted");
 
-	// }else{
-	// 	image.src='images/other_rice_un.jpg';
-	// 	rice_track='un';
-	// }
- // }
+	}else{
+		image.src='images/other_rice_un.jpg';
+		rice_track='un';
+	}
+ }
 
 function soapChange(){
 	var image = document.getElementById('other_soap');
