@@ -59,7 +59,7 @@ div {
 
 .midcontainermain{
     width: 100%;
-    position: relative;
+   
     padding-right: 20px;
     padding-left: 45px;
     margin-right: auto;
@@ -81,13 +81,13 @@ h4, h5, h6 {
     margin-top: 5px;
     margin-bottom: 5px;
     vertical-align: center;
-    font-family:Gill Sans Nova; 
+    font-family:Lato; 
     font-weight: 50;
 }
 
 .storecontainermain{
     width: 100%;
-    height:50%;
+    height:35%;
     position: relative;
     padding-right: 25px;
     padding-left: 25px;
@@ -155,6 +155,7 @@ p.arial{
     flex-wrap: wrap;
     padding:5px;
     color: #6FC8CF;
+
     
 }
 
@@ -192,7 +193,7 @@ p.arial{
     border-radius: 4px;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    height: 12%;
+    height: 9%;
 }
 
 [class*="col-xs-"] {
@@ -207,7 +208,7 @@ p.arial{
   color: #FFFFFF;
   padding: 3px 10px;
   text-align: center;
-  font-family: Gill Sans Nova;
+  font-family:Lato;
   font-weight: 50;
   font-size: 16px;
   display: inline-block;
@@ -241,7 +242,7 @@ p.arial{
   color: #FFFFFF;
   padding: 3px 10px;
   text-align: center;
-  font-family: Gill Sans Nova;
+  font-family: Lato;
   font-weight: 50;
   font-size: 16px;
   display: inline-block;
@@ -258,7 +259,7 @@ p.arial{
   color: #f56c57;
   padding: 3px 10px;
   text-align: center;
-  font-family: Gill Sans Nova; 
+  font-family: Lato; 
   font-weight: 50;
   font-size: 12px;
   display: inline-block;
@@ -277,7 +278,7 @@ p.arial{
   color: #f56c57;
  /* padding: 3px 10px;*/
   text-align: center;
-  font-family: Gill Sans Nova; 
+  font-family: Lato; 
   font-weight: 50;
   font-size: 12px;
   display: inline-block;
@@ -296,7 +297,7 @@ p.arial{
   color: #f56c57;
   padding: 3px 10px;
   text-align: center;
-  font-family: Gill Sans Nova; 
+  font-family: Lato; 
   font-weight: 50;
   font-size: 12px;
   display: inline-block;
@@ -412,7 +413,7 @@ ul {
   color: #f56c57;
   padding: 3px 10px;
   text-align: center;
-  font-family: Gill Sans Nova; 
+  font-family: Lato; 
   font-weight: 50;
   font-size: 12px;
   
@@ -450,7 +451,7 @@ ul {
   color: #f56c57;
   padding: 0 0;
   text-align: center;
-  font-family: Gill Sans Nova; 
+  font-family: Lato; 
   font-weight: 50;
   font-size: 12px;
   
