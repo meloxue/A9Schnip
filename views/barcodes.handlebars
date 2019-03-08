@@ -23,7 +23,7 @@
 </head>
 
 <body>
-	<div class="container" align="center">
+	<div class="maincontainer" align="center">
 
 	<!-- 	<div style="border:none; padding:none; margin:none;">
 			<div>
@@ -42,17 +42,20 @@
 			{{/each}}
 
 		</div> -->
-		<div class="row">
+		<li>
+		
 			{{#if barcode}}
 			<ul class="taskList">
 				{{#each barcode}}
-				<li><img src={{this}}></li>
+				<li><img src={{this}} ></li>
 				{{/each}}
 			</ul>
 			{{else}}
 			<h3>No coupons selected</h3>
 			{{/if}}
-		</div>
+
+		</li>
+		
 
 	</div>
 </body>
